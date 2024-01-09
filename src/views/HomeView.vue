@@ -1,18 +1,41 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
-</template>
+  <div class="homePage">
+   
+    <!-- Your landing page content goes here -->
+    <h1 class="display-2" id="typewriter">
+      I am an aspiring fullstack dev
+      <span id="name"></span>
+    </h1>
+  
+</div>
 
+
+  </template>
 <script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
 
 export default {
-  name: 'HomeView',
-  components: {
-    HelloWorld
+  name: 'homePage',
+  mounted(){
+    this.typeWriter('name', 'Thimna Alam');
+  },
+  methods:{
+    typeWriter(targetId, text, speed =100){
+      const targetElement = document.getElementById(targetId);
+  if (targetElement) {
+    let i = 0;
+    const typeWriterInterval = setInterval(() => {
+      if (i < text.length) {
+        targetElement.innerHTML += text.charAt(i);
+        i++;
+      } else {
+        clearInterval(typeWriterInterval);
+      }
+    }, speed);
   }
-}
+},
+},
+
+    }
+  
+
 </script>

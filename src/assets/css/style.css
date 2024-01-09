@@ -1,0 +1,78 @@
+*,
+*::before
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* logo */
+img[alt='logo']{
+    width: 5rem;
+    aspect-ratio: 1/1;
+}
+/* from app */
+#app {
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    color: #2c3e50;
+  }
+  
+  nav {
+    padding: 30px;
+    color: #a97d47;
+  
+  }
+  
+  nav a {
+    font-weight: bold;
+    color: #2c3e50;
+  }
+  
+  nav a.router-link-exact-active {
+    color: #42b983;
+  } 
+
+
+  /* footer */
+  .footer-container {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #f8f9fa; /* Optional: Set a background color for the footer */
+    padding: 10px;
+    text-align: center;
+  }
+  .homePage {
+    position: relative;
+    text-align: center;
+    padding-bottom: 650px; /* Adjust the padding based on your design */
+  }
+  
+.homePage{
+    background-image: url('../coffee.avif');
+   
+background-size: cover; 
+background-position: center;
+width: 100vw;
+height: 100vh;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+align-items: flex-start;
+padding: 20px;;
+}
+.display-2{
+    color: black;
+    margin-bottom: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: 80;
+    text-align: center;
+    
+}
