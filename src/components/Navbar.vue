@@ -2,7 +2,7 @@
     <nav class="navbar navbar-expand-lg bg-body-tertiary custom-navbar">
    <div class="container-fluid">
     <RouterLink to="/">
-     <img class="img-fluid" loading="lazy" src="../assets/logo.png" alt="logo">
+     <img class="img-fluid" loading="lazy" src="../assets/TA.png" alt="logo">
     </RouterLink>
      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
        <span class="navbar-toggler-icon"></span>
@@ -26,7 +26,7 @@
          </li>
          <li class="nav-item">
              <RouterLink to="/project" class="nav-link active">
-                 Project
+                 Projects
            </RouterLink>
          </li>
          <li class="nav-item">
