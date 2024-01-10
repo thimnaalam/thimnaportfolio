@@ -1,3 +1,4 @@
+ @import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
 *,
 *::before
 *::after{
@@ -18,10 +19,12 @@ img[alt='logo']{
     text-align: center;
     color: #2c3e50;
   }
-  
+  .custom-navbar{
+    background-color:#a97d47 ;
+  }
   nav {
     padding: 30px;
-    color: #a97d47;
+   
   
   }
   
@@ -45,10 +48,34 @@ img[alt='logo']{
     padding: 10px;
     text-align: center;
   }
+  /* icons */
+  .fixed-bottom {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #f8f9fa;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .social-media-icons {
+    margin-top: 10px;
+  }
+  
+  .social-media-icons a {
+    display: inline-block;
+    margin: 0 10px;
+    color: #333; 
+  }
+  
+  .social-media-icons i {
+    font-size: 24px;
+  }
   .homePage {
     position: relative;
     text-align: center;
-    padding-bottom: 650px; /* Adjust the padding based on your design */
+    padding-bottom: 650px; 
   }
   
 .homePage{
@@ -74,5 +101,31 @@ padding: 20px;;
     transform: translate(-50%, -50%);
     font-weight: 80;
     text-align: center;
-    
+  
 }
+/* about page content */
+
+.about {
+   padding-top: 100px;
+  }
+  
+  .flex-container {
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between; 
+    align-items: center; 
+    flex-wrap: wrap;
+  }
+  
+  .image-container {
+   
+  }
+  
+  .paragraph-container {
+    width: 60%; 
+  }
+  #heading{
+    padding-bottom: 400px;
+  }
+  
+
