@@ -169,7 +169,7 @@ body{
     padding-bottom: 100px;
 }
 :focus{
-    outline: 0px solid transparent !important;
+    outline: 0px solid transparent ;
 }
 .timeline {
     padding: 50px 0;
@@ -349,5 +349,35 @@ body{
     height: 60px;
     object-fit: fill;
 }
+}
+/* projects */
+.btn{
+  
+    border: #000000;
+    background-color: #637280;   
+}
+@media(max-width: 575px){
+#projects{ 
+    width: 100%;
+    height: 100%;
+    display: grid;
+    display: block;
+}
+}
+@media(max-width:575px){
+    #rows{
+        display: block;
+        justify-content: center;
+        align-content: center;
+        width:1000px;
+    }
+}
+@media(max-width:575px){
+    body{
+       
+        display: block;
+        justify-content: center;
+        align-content: center;
+    }
 }
 
