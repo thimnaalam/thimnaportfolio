@@ -1,5 +1,5 @@
 <template>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary custom-navbar">
    <div class="container-fluid">
     <RouterLink to="/">
      <img class="img-fluid" loading="lazy" src="../assets/logo.png" alt="logo">
