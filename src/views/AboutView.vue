@@ -6,7 +6,7 @@
     <div class="flex-container">
       <!-- Image on the left -->
       <div class="image-container">
-        <img class="img-fluid" loading="lazy" src="../assets/logo.png" alt="Your Image">
+        <img class="img-fluid" loading="lazy" src="../assets/profileDemo.jpg" alt="Your Image">
       </div>
 
       <!-- Paragraphs on the right -->
