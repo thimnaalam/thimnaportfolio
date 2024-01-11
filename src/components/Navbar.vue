@@ -1,5 +1,5 @@
 <template>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary custom-navbar">
+    <nav class="container-fluid navbar navbar-expand-lg custom-navbar ">
    <div class="container-fluid">
     <RouterLink to="/">
      <img class="img-fluid" loading="lazy" src="../assets/TA.png" alt="logo">
@@ -8,43 +8,42 @@
        <span class="navbar-toggler-icon"></span>
      </button>
      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+       <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
          <li class="nav-item">
-           <RouterLink to="/" class="nav-link active">
+           <RouterLink to="/" class="nav-link active text-white">
              Home
            </RouterLink>
          </li>
          <li class="nav-item">
-             <RouterLink to="/about" class="nav-link active">
+             <RouterLink to="/about" class="nav-link active text-white">
                  About
            </RouterLink>
          </li>
          <li class="nav-item">
-             <RouterLink to="/resume" class="nav-link active">
+             <RouterLink to="/resume" class="nav-link active text-white">
                  Resume
            </RouterLink>
          </li>
          <li class="nav-item">
-             <RouterLink to="/project" class="nav-link active">
+             <RouterLink to="/project" class="nav-link active text-white">
                  Projects
            </RouterLink>
          </li>
          <li class="nav-item">
-             <RouterLink to="/testimonials" class="nav-link active">
+             <RouterLink to="/testimonials" class="nav-link active text-white">
                  Testimonials
            </RouterLink>
          </li>
          <li class="nav-item">
-             <RouterLink to="/contact" class="nav-link active">
+             <RouterLink to="/contact" class="nav-link active text-white">
                  Contact
            </RouterLink>
          </li>
        </ul>  
      </div>
    </div>
- </nav> <div>
+ </nav> 
  
-     </div>
  </template>
  
  <script>
