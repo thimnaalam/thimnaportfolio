@@ -1,7 +1,7 @@
 <template>
   <div class="homePage">
    
-    <!-- Your landing page content goes here -->
+   
     <h1 class="display-2" id="typewriter">
       I am an aspiring Full-stack Dev
       <span id="name"></span>
