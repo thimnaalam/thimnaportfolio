@@ -3,7 +3,7 @@
     <div class="container">
       <div class="row">
         <h2 class="display-2" id="heading">Resume</h2>
-  
+        <h4 class="display-4 text-dark" id="sub-heading">Education</h4>
         <div class="container">
             <div class="timeline">
               <div class="row no-gutters justify-content-end justify-content-md-around align-items-start  timeline-nodes">
@@ -57,6 +57,73 @@
             </div>
           </div>
           </div>
+          <h4 class="display-4 text-dark" id="sub-heading">Skills</h4>
+          <div class="row d-block d-md-flex justify-content-center align-content-end">  
+      <div class="col">
+     <div class="flip-card">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <img src="../assets/html.png" alt="HTML" style="width:300px;height:300px;">
+        </div>
+        <div class="flip-card-back">
+          <img src="../assets/css.png" alt="CSS" style="width:300px;height:300px;">
+         
+        </div>
+      </div>
+    </div>
+    <p class="container text-dark">
+      Proficient
+    </p>
+  </div>
+  <div class="col">
+    <div class="flip-card">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <img src="../assets/B.jpg" alt="BOOTSTRAP" style="width:300px;height:300px;">
+        </div>
+        <div class="flip-card-back">
+          <img src="../assets/js.png" alt="JS" style="width:300px;height:300px;">
+         </div>
+        </div>
+    </div>
+    <p class="container text-dark">
+     Intermidiate
+    </p>
+    </div>
+     </div>
+     <div class="row d-block d-md-flex justify-content-center align-content-end">  
+      <div class="col">
+     <div class="flip-card">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <img src="../assets/ON.png" alt="Radio" style="width:300px;height:300px;">
+        </div>
+        <div class="flip-card-back">
+          <img src="../assets/OUT.png" alt="Out" style="width:300px;height:300px;">
+         
+        </div>
+      </div>
+    </div>
+    <p class="container text-dark">
+      Proficient
+    </p>
+  </div>
+  <div class="col">
+    <div class="flip-card">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <img src="../assets/vue.png" alt="vue" style="width:300px;height:300px;">
+        </div>
+        <div class="flip-card-back">
+          <img src="../assets/AGR.png" alt="agri" style="width:300px;height:300px;">
+         </div>
+        </div>
+    </div>
+    <p class="container text-dark">
+     Intermidiate
+    </p>
+    </div>
+     </div>
           </div>
   </template>
   

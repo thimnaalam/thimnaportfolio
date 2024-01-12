@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "bootstrap": "^5.3.2",
+    "bootstrap-icons": "^1.11.3",
     "carousel-3d": "^0.2.3",
     "core-js": "^3.8.3",
     "i": "^0.3.7",

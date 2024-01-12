@@ -2,7 +2,6 @@
     <div class="container " id="Bproj">
 <div class="row">
     <h2 class="display-2" id="heading">Projects</h2>
-
     <div class="row grid gap-3" id="rows">
   <div class="p-2 g-col-6 card w-25 ">
     <div class="card-body">

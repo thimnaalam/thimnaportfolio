@@ -10,7 +10,7 @@
             </div>
             <div class="mb-3">
               <label for="Surname" class="form-label"></label>
-              <input type="text" class="form-control" name="Surname" id="Surname" placeholder="Surname">
+              <input type="text" class="form-control" name="Surname" id="Surname" placeholder="Surname" required>
             </div>
             <div class="mb-3">
               <label for="Email" class="form-label"></label>
@@ -18,7 +18,7 @@
             </div>
             <div class="mb-3">
               <label for="Message" class="form-label"></label>
-              <textarea class="form-control" id="Message" name="Message" rows="3" placeholder="Message"></textarea>
+              <textarea class="form-control" id="Message" name="Message" rows="3" placeholder="Message" required></textarea>
             </div>
             <button type="submit" class="btn btn-dark">Submit</button>
           </form>

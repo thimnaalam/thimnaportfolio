@@ -1,18 +1,18 @@
 <template>
        <div class="container " id="Bproj">
 <div class="row">
-    <h2 class="display-2" id="heading">Projects</h2>
-    <div id="carouselExampleFade" class="carousel slide carousel-fade">
+    <h2 class="display-2" id="heading">Testimonials</h2>
+    <div id="carouselExampleFade" class="carousel slide carousel-fade w-75 vh-75">
   <div class="carousel-inner">
     <div class="carousel-item active">
       <img src="../assets/joel2 (1).jpg" class="d-block w-100" alt="joel">
-      <div class="carousel-caption opacity-25 bg-secondary d-none d-md-block">
+      <div class="carousel-caption opacity-25  bg-dark  d-none d-md-block">
               <h5>Joel Mukanya</h5>
               <p>Thimna is a creative, talented, and well-behaved individual who always prioritizes her work. She excels in collaborating with others and has gained proficiency in HTML5, CSS, and Bootstrap. Including Git and GitHub..</p>
             </div>
     </div>
-    <div class="carousel-item">
-      <img src="../assets/Jay.jpg" class="d-block w-100" alt="jay">
+    <div class="carousel-item ">
+      <img src="../assets/Jay.jpg" class="d-block w-100 " alt="jay">
       <div class="carousel-caption opacity-25 bg-secondary d-none d-md-block">
               <h5>Jay-donn Hendricks</h5>
               <p>Thimna is the most goal driven person I have ever met. She is always willing to learn - curious in other words. Her brightest feature is her boldness - she is never afraid to speak her mind, her truth and her timing at that is amazing. Among all her amazing features she is well- mannered, respectful of her surroundings and focused.</p>
