@@ -10,12 +10,12 @@
 <script>
 import Navbar from './components/Navbar.vue';
 import Footer from './components/Footer.vue';
-import spinner from './components/spinner.vue';
+// import spinner from './components/spinner.vue';
 export default{
   components:{
     Navbar,
     Footer,
-    spinner
+    // spinner
   }
 }
 
