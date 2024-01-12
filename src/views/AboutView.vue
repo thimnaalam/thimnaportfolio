@@ -2,14 +2,14 @@
   <div class="about">
     <h1 class="display-2" id="heading">About</h1>
 
-    <!-- Using flex container for layout -->
+   
     <div class="flex-container">
-      <!-- Image on the left -->
+    
       <div class="image-container">
         <img class="img-fluid" loading="lazy" src="../assets/profile.jpg" alt="Your Image">
       </div>
 
-      <!-- Paragraphs on the right -->
+    
       <div class="paragraph-container">
         <p class="container t">
           My name is Thimna Alam born and raised in Cape Town. I obtained my matric certificate at the Centre Of Science And Technology in 2020. During that period, I was also part of the Children's Radio Foundation doing a radio production course. In 2019, I also took part in a coding and robotics bootcamp at UCT under Code Space. After that, I went to False Bay college and did nated electrical engineering but I did not finish.
