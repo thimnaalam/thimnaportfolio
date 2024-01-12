@@ -20,7 +20,7 @@
               <label for="Message" class="form-label"></label>
               <textarea class="form-control" id="Message" name="Message" rows="3" placeholder="Message" required></textarea>
             </div>
-            <button type="submit" class="btn btn-dark">Submit</button>
+            <button type="submit" class="btn btn-dark">Start/Submit</button>
           </form>
         </div>
       </div>

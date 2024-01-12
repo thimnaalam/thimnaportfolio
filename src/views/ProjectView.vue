@@ -15,8 +15,8 @@
     <div class="card-body">
       <img src="../assets/ecom.jpg" class="card-img-top" alt="E.Commerce">
       <h5 class="card-title text-white">E.Commerce</h5>
-      <a href="" class="btn btn-outline-dark" target="_blank">GitHub</a>
-      <a href="#" class="btn btn-outline-dark" target="_blank">Netify</a>
+      <a href=" https://github.com/thimnaalam/Khanyile.js.git" class="btn btn-outline-dark" target="_blank">GitHub</a>
+      <a href="https://khanyiles.netlify.app/" class="btn btn-outline-dark" target="_blank">Netify</a>
     </div>
   </div>
   <div class=" p-2 g-col-6 card w-25 "> 
@@ -49,8 +49,8 @@
 <div class="card-body">
   <img src="../assets/bTA.jpg" class="card-img-top" alt="Keyboard">
   <h5 class="card-title text-white">Bootstrap Portfolio</h5>
-  <a href="#" class="btn btn-outline-dark" target="_blank">GitHub</a>
-  <a href="#" class="btn btn-outline-dark" target="_blank">Netify</a>
+  <a href="https://github.com/thimnaalam/BootstrapProject.git" class="btn btn-outline-dark" target="_blank">GitHub</a>
+  <a href="https://bootstrapthimna.netlify.app/" class="btn btn-outline-dark" target="_blank">Netify</a>
 </div>
 </div>
 </div>

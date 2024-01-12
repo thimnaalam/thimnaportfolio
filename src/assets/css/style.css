@@ -1,5 +1,4 @@
- 
- @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
 *,
 *::before
 *::after{
@@ -141,22 +140,7 @@ padding: 20px;
   
     padding-top: 100px;    
   }
-  /* timeline */
-  /* .timeline-nodes {
-    position: relative;
-  
-  }
-  
-  .timeline-content,
-  .timeline-image,
-  .timeline-date {
-    padding: 20px;
-    padding-bottom: 100px;
-  }
-  
-  .timeline-date {
-    text-align: center;
-  } */
+
   /**timeline**/
 
 :root {
@@ -338,7 +322,7 @@ body{
 }
 
 /*extra small device style */
-@media (max-width: 575px) {
+@media (max-width: 300px) {
     .timeline::before {
     content: "";
     display: block;
@@ -363,7 +347,7 @@ body{
     border: #000000;
     background-color: #637280;   
 }
-@media(max-width: 575px){
+@media(max-width: 300px){
 #projects{ 
     width: 100%;
     height: 100%;
@@ -372,7 +356,7 @@ body{
     
 }
 }
-@media(max-width:575px){
+@media(max-width:300px){
     #rows{
         display: block;
         justify-content: center;
@@ -380,7 +364,7 @@ body{
         width:1000px;
     }
 }
-@media(max-width:575px){
+@media(max-width:300px){
     body{
        
         display: block;
@@ -390,8 +374,9 @@ body{
         
     }
 }
+/* body for proj & testi */
 #Bproj{
-padding-left: 200px;
+padding-left: 250px;
 margin-top: 40px;
 }
 #carouselExampleFade{
@@ -403,6 +388,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     
   }
+  
   /* skills cards */
   
   .flip-card {
@@ -446,4 +432,8 @@ body {
     color: white;
     transform: rotateY(180deg);
   }
-
+/* testimonials */
+#Timg{
+    width: 500px;
+    height: 500px;
+}
