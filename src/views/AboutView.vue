@@ -6,7 +6,7 @@
     <div class="flex-container">
     
       <div class="image-container">
-        <img class="img-fluid" loading="lazy" src="../assets/profile.jpg" alt="Your Image">
+        <img class="img-fluid" loading="lazy" src="../assets/thimna.jpg" alt="Your Image">
       </div>
 
     

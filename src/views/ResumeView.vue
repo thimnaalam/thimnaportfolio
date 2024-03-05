@@ -115,7 +115,7 @@
           <img src="../assets/vue.png" alt="vue" style="width:300px;height:300px;">
         </div>
         <div class="flip-card-back">
-          <img src="../assets/AGR.png" alt="agri" style="width:300px;height:300px;">
+          <img src="../assets/nodejs.png" alt="vue" style="width:300px;height:300px;">
          </div>
         </div>
     </div>
