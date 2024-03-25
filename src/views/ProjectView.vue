@@ -56,14 +56,65 @@
 </div>
     </div>
     </div>
+    <div class="containerD">
+    <div class="dots-container">
+      <div v-for="(dot, index) in dots" :key="index" :style="{ animationDelay: index * delay + 'ms' }" class="dot"></div>
+    </div>
+  </div>
 </template>
 
 <script>
     export default {
+  data() {
+    return {
+      dots: 50, // Number of dots
+      delay: 100 // Delay between each dot animation
+    };
+  }
+};
         
-    }
+    
 </script>
 
 <style scoped>
+.card{
+  box-shadow: 10px 7px 10px rgba(0, 0, 0, 0.1);
+}
+.btn{
+  background-color: gray;
+  border-color: white;
+  box-shadow: 10px 7px 10px rgba(0, 0, 0, 0.1);
+}
+.containerD {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
 
+.dots-container {
+  position: relative;
+  width: 1000px; /* Adjust as needed */
+  height: 200px; /* Adjust as needed */
+}
+
+.dot {
+  position: absolute;
+  width: 8px; /* Dot size */
+  height: 8px; /* Dot size */
+  border-radius: 50%; /* Make it round */
+  background-color: #000; /* Dot color */
+  animation: spiral 3s infinite ;
+}
+
+@keyframes spiral {
+  0% {
+    top: 0;
+    left: 0;
+  }
+  100% {
+    top: 100%;
+    left: 100%;
+  }
+}
 </style>
