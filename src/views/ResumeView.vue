@@ -135,5 +135,7 @@
 </script>
 
 <style scoped>
-
+h2,h3,h4,p{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
 </style>

@@ -8,7 +8,7 @@
       <div class="image-container">
         <img class="img-fluid" loading="lazy" src="../assets/thimna.jpg" alt="Your Image">
       </div>
-      <div class="para-container">
+      <div class="para-container text-black">
         <p>Reside: Cape Town - Khayelitsha</p>
         <p>Born: 16/10/2002</p>
         <p>Hobbies:</p>
@@ -20,7 +20,7 @@
 
       <a href="/path/to/your/cv.pdf" download="your_cv_name.pdf" class="btn btn-primary">Download CV</a>
 
-      <div class="paragraph-container">
+      <div class="paragraph-container text-black">
         <p class="container t">
           My name is Thimna Alam born and raised in Cape Town. I obtained my matric certificate at the Centre Of Science And Technology in 2020. During that period, I was also part of the Children's Radio Foundation doing a radio production course. In 2019, I also took part in a coding and robotics bootcamp at UCT under Code Space. After that, I went to False Bay college and did nated electrical engineering but I did not finish.
         </p>
@@ -39,20 +39,28 @@ export default {
 </script>
 
 <style scoped>
+h1{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+p{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: large;
+}
 .paragraph-container{
   width: 500px;
   position: absolute;
-  left: 60%;
+  left: 63%;
   top:40%;
   box-shadow: 10px 7px 10px rgba(0, 0, 0, 0.1);
 }
 img{
+  margin-left: 18%;
 margin-top: 30%;
-box-shadow: 20px 7px 20px rgba(0, 0, 0, 0.1);
+box-shadow: 20px 7px 40px rgba(0, 0, 0, 0.1);
 }
 .para-container{
   position: absolute;
-  left:38%;
+  left:45%;
   top:60%;
   font-size: 20px;
   box-shadow: 10px 7px 10px rgba(0, 0, 0, 0.1);
@@ -60,10 +68,10 @@ box-shadow: 20px 7px 20px rgba(0, 0, 0, 0.1);
 }
 .btn{
   position: absolute;
-  left:43%;
+  left:50%;
   top:800px;
   background-color: gray;
-  border-color: goldenrod;
+  border-color: #b77004;
   box-shadow: 10px 7px 10px rgba(0, 0, 0, 0.1);
 }
 </style>

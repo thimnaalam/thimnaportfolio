@@ -1,4 +1,5 @@
 <template>
+
   <div class="homePage">
     <h1 class="display-2" id="typewriter">
       I am an aspiring <span id="mainTitle"> Full-stack Dev </span>
@@ -43,7 +44,9 @@ export default {
 </script>
 
 <style scoped>
-
+h1{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
 
   
 </style>

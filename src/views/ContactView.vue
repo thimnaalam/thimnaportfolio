@@ -30,3 +30,9 @@
   <script>
   export default {};
   </script>
+  <style scoped>
+h2{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+</style>

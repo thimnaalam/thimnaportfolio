@@ -1,7 +1,7 @@
 <template>
     <div class="container-fluid fixed-bottom">
         <div class="row">
-            <p class="lead">
+            <p class="lead text-black">
                 Thimna's Portfolio &copy;
                 <span>{{ currYear }}</span>
             </p>
